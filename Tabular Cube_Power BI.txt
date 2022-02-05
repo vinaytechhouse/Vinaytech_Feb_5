@@ -1,0 +1,88 @@
+The current session for Power BI or Report Developers to connect to tabular cube [tabular cube creation] and fetch data.
+===============================================================================
+With this knowledge you can keep 3-6 months experience in the resume.
+I want to keep 1 year expereince /2 years...I am giving all the videos of tabular cube and complete material...read, watch and practice.[MSBI-SSAS-TABULAR MODEL]
+=================================================================================
+Tabular Cubes [Tabular Model [SSDT], Tabular Database [ SSMS]]
+It is a a component of MSBI-->SSAS
+MSBI: Microsoft Business Intelligence. It has 3 components.
+	a) SSIS[SQL Server Integeration Services]
+	b) SSAS [ SQL Server Analysis Services]: Two Models [a) Multidiensional Model  b) Tabular Model]
+	c) SSRS [ SQL Server Reporting Services]
+	d) DQS
+	e) MDS
+
+What is Tabular Model:
+
+	The model which contain set of tables in denormalized fashion with required aggregate and analytical values.
+	As it is avaialble as database .. we can use in ANALYTICS[Excel, Procube..] and Reporting[ Power BI, SSRS, Cognos,
+									Tableau etc...]
+
+	This has its own fastest engine[ Vertipaq] which uses in-memory model
+	Tabular Model uses DAX language for its operations		
+
+	Uses RLS[Row Level Security] on model
+	Support Data Model protocols on tables [Pivoting]
+	
+	Introduced in the year -2012
+
+How Power BI and Tabular Model are sync?
+
+	Tabular Model is the inspiration to announce Power BI.
+	Power BI= Tabular Model + SSRS+ SSIS Transforms+ Cloud facility[app.powerbi.com]
+
+
+	If we prepare a proper tabular model[ storage, relationships, and calculations(measures or columns)], no need to 
+	do at Power BI and directly we can use those objects in Power BI
+
+My Last Project Flow:
+
+	Sourrces[OLTP]---> DWH created-->Tabular Cubes[multiple with sizes 10GB- 40GB]--> Reporting [Power BI]
+
+What is required to prepare a tabular cube?
+	a) Tool / Application [SSDT]
+	required {easy interface to create tabular model with storage, relationships, security, calculations}
+	b) Database Storage [Analysis Service Instance] and Tool [SSMS: Connect and see the database]
+
+TOOLS:
+
+SSDT: SQL Server Data Tools
+	a) I will share the link...download [easy to operate]
+		or browse and download SSDT
+
+SSMS: Download from the earlier links
+
+http://www.vinaytechhouse.com/msbi-software-links.php
+
+Instance Software:
+	MSBI / SQL Server Business Intelligence Software [I have already shared....2019/2017..]
+
+
+
+
+EXCEL DATA[BUSINESS DATA]--->SSDT[WE WILL DO ALL HERE]-->DEPLOY-->SSAS TABULAR SERVER[CUBE DATABASES](SSMS)
+
+EXCEL DATA[BUSINESS DATA]--->POWER BI DESKTOP[WE WILL DO ALL HERE]-->PUBLISH-->SERVICE / SERVER FOR MGMT
+
+
+Tabular Cube Major Operations:
+
+Extract-->Minimal transformation-->Model(Relationships and Calculations)-->Securing-->Deploy to SSAS Server-->Analytics and Reporting Level
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
