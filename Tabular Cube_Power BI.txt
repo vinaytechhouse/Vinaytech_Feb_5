@@ -1,3 +1,5 @@
+This is running notes only.
+
 The current session for Power BI or Report Developers to connect to tabular cube [tabular cube creation] and fetch data.
 ===============================================================================
 With this knowledge you can keep 3-6 months experience in the resume.
@@ -11,6 +13,7 @@ MSBI: Microsoft Business Intelligence. It has 3 components.
 	c) SSRS [ SQL Server Reporting Services]
 	d) DQS
 	e) MDS
+============================================================
 
 What is Tabular Model:
 
